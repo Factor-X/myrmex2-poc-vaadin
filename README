@@ -1,0 +1,7 @@
+install charts add-on
+-> add dependency into maven or ivy
+-> recover the key
+-> create a file like '.vaadin.charts.developer.license' with the key inside
+-> detect the 'home' dorectory with this widget : verticalLayout.addComponent(new Label(System.getProperty("user.home")));
+	/root in my case
+-> recompile widget with 'compile widgetset' with the eclipse plugin or command line with maven
